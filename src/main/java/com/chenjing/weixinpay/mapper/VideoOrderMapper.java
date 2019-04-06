@@ -39,7 +39,7 @@ public interface VideoOrderMapper {
     /*
     * 根据订单号获取订单对象
     * */
-    @Select("SELECT * From video_order WHERE id= #{out_trade_no} AND del = 0")
+    @Select("SELECT * From video_order WHERE out_trade_no= #{out_trade_no} AND del = 0")
     VideoOrder findByOutTradeNo(@Param("out_trade_no") String outTradeNo);
 
     /*
@@ -59,6 +59,6 @@ public interface VideoOrderMapper {
     * */
     @Update("UPDATE video_order SET state = #{state}, notify_time= #{notifyTime}," +
             " openid= #{openid}" +
-            "WHERR out_trade_no = #{outTradeNo} AND state = 0 AND del = 0")
+            "WHERE out_trade_no = #{outTradeNo} AND state = 0 AND del = 0")
     int updateVideoOrderByOutTradeNo(VideoOrder videoOrder);
 }
