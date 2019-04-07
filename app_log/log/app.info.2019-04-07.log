@@ -1,0 +1,597 @@
+2019-04-07 20:49:53.400 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9624 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:49:53.400 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:49:54.040 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:49:54.040 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:49:54.055 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-04-07 20:49:54.164 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4c12a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:49:54.336 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:49:54.336 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:49:54.336 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:49:54.383 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:49:54.383 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 967 ms
+2019-04-07 20:49:54.773 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 20:49:55.007 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 20:49:55.054 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 20:49:55.054 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 2.091 seconds (JVM running for 707.882)
+2019-04-07 20:49:55.054 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 20:52:22.877 INFO [Thread-32]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 20:52:23.362 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9624 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:52:23.362 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:52:23.955 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:52:23.955 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:52:23.971 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-04-07 20:52:24.127 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4c12a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:52:24.314 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:52:24.314 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:52:24.314 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:52:24.330 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:52:24.330 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 968 ms
+2019-04-07 20:52:24.376 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 20:52:24.376 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 20:52:24.376 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 20:53:11.132 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9624 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:53:11.147 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:53:11.774 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:53:11.774 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:53:11.790 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-04-07 20:53:11.915 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4c12a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:53:12.071 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:53:12.071 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:53:12.071 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:53:12.102 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-1].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:53:12.102 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 955 ms
+2019-04-07 20:53:12.180 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 20:53:12.180 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 20:53:12.196 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 20:53:42.539 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9624 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:53:42.539 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:53:43.181 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:53:43.181 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:53:43.181 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-04-07 20:53:43.322 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4c12a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:53:43.478 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:53:43.493 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:53:43.493 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:53:43.524 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:53:43.524 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 970 ms
+2019-04-07 20:53:43.587 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 20:53:43.587 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 20:53:43.602 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 20:53:47.144 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9624 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:53:47.144 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:53:47.943 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:53:47.943 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:53:47.959 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-04-07 20:53:48.084 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4c12a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:53:48.208 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:53:48.224 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:53:48.224 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:53:48.255 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-3].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:53:48.255 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1111 ms
+2019-04-07 20:53:48.302 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 20:53:48.302 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 20:53:48.318 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 20:53:53.980 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9624 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:53:53.980 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:53:54.651 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:53:54.651 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:53:54.651 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-04-07 20:53:54.729 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4c12a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:53:54.854 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:53:54.854 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:53:54.854 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:53:54.901 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-4].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:53:54.901 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 905 ms
+2019-04-07 20:53:54.948 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 20:53:54.948 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 20:53:54.963 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 20:53:59.961 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9624 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:53:59.977 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:54:00.679 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:54:00.679 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:54:00.695 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-04-07 20:54:00.820 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4c12a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:54:00.976 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:54:00.976 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:54:00.976 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:54:01.023 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-5].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:54:01.023 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1046 ms
+2019-04-07 20:54:01.085 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 20:54:01.085 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 20:54:01.085 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 20:54:03.706 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9624 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:54:03.706 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:54:04.314 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:54:04.314 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:54:04.346 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-04-07 20:54:04.473 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4c12a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:54:04.692 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:54:04.692 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:54:04.692 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:54:04.785 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-6].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:54:04.785 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1064 ms
+2019-04-07 20:54:04.848 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 20:54:04.848 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 20:54:04.848 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 20:54:08.797 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9624 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:54:08.797 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:54:09.437 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:54:09.437 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:54:09.453 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-04-07 20:54:09.624 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4c12a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:54:09.843 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:54:09.843 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:54:09.843 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:54:09.874 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-7].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:54:09.874 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1061 ms
+2019-04-07 20:54:09.936 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 20:54:09.936 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 20:54:09.952 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 20:54:23.121 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9624 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:54:23.121 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:54:23.698 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:54:23.698 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:54:23.714 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-04-07 20:54:23.823 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4c12a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:54:24.010 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:54:24.026 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:54:24.026 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:54:24.057 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-8].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:54:24.057 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 920 ms
+2019-04-07 20:54:24.104 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 20:54:24.104 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 20:54:24.120 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 20:54:26.663 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9624 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:54:26.663 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:54:27.249 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:54:27.249 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:54:27.264 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-04-07 20:54:27.405 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4c12a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:54:27.561 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:54:27.561 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:54:27.561 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:54:27.607 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-9].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:54:27.607 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 944 ms
+2019-04-07 20:54:27.639 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 20:54:27.639 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 20:54:27.654 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 20:54:45.566 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9624 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:54:45.566 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:54:46.112 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:54:46.112 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:54:46.128 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-04-07 20:54:46.237 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4c12a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:54:46.440 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:54:46.440 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:54:46.440 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:54:46.471 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-10].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:54:46.471 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 889 ms
+2019-04-07 20:54:46.502 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 20:54:46.502 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 20:54:46.533 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 20:58:36.302 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 10016 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:58:36.308 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:58:36.419 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 20:58:36.420 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-07 20:58:37.612 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:58:37.615 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:58:37.659 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2019-04-07 20:58:38.244 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9528bba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:58:38.799 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:58:38.828 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 20:58:38.843 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:58:38.844 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:58:38.854 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\jdk\jdk1.8\bin;F:\apache-maven-3.3.9\apache-maven-3.3.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;D:\oracle\安装介质\Oracle客户端\oracleInstanceClient\32bit\instantclient_12_1;F:\TortoiseGit\install\bin;D:\SSHSecureShellClient\安装;.]
+2019-04-07 20:58:39.095 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:58:39.096 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 2676 ms
+2019-04-07 20:58:39.911 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 20:58:40.717 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 20:58:40.773 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 20:58:40.809 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 20:58:40.816 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 5.661 seconds (JVM running for 7.273)
+2019-04-07 20:59:11.710 INFO [Thread-17]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 20:59:12.184 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 10016 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:59:12.185 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:59:12.787 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:59:12.787 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:59:12.803 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-04-07 20:59:12.975 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9528bba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 20:59:13.181 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 20:59:13.183 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 20:59:13.184 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 20:59:13.184 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 20:59:13.218 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 20:59:13.218 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1026 ms
+2019-04-07 20:59:13.266 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController': Unsatisfied dependency expressed through field 'videoOrderService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.chenjing.weixinpay.service.VideoOrderService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-04-07 20:59:13.267 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 20:59:13.279 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 20:59:59.001 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 10016 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 20:59:59.001 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 20:59:59.627 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 20:59:59.627 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 20:59:59.651 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-04-07 20:59:59.790 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9528bba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:00:00.066 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:00:00.069 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:00:00.070 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:00:00.071 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:00:00.112 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-1].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:00:00.113 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1105 ms
+2019-04-07 21:00:00.584 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:00:00.905 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:00:00.947 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:00:00.958 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:00:00.959 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 2.026 seconds (JVM running for 87.415)
+2019-04-07 21:00:00.966 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 21:00:17.675 INFO [Thread-26]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:00:18.162 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 10016 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:00:18.163 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:00:18.720 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:00:18.720 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:00:18.732 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-04-07 21:00:18.820 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9528bba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:00:18.989 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:00:18.991 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:00:18.991 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:00:18.992 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:00:19.023 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-1].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:00:19.023 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 854 ms
+2019-04-07 21:00:19.362 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:00:19.575 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:00:19.600 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:00:19.607 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:00:19.608 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 1.525 seconds (JVM running for 106.063)
+2019-04-07 21:00:19.610 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 21:01:05.785 INFO [Thread-35]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:01:06.273 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 10016 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:01:06.274 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:01:06.895 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:01:06.895 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:01:06.907 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-04-07 21:01:07.011 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9528bba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:01:07.251 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:01:07.253 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:01:07.254 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:01:07.254 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:01:07.292 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-1].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:01:07.292 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1010 ms
+2019-04-07 21:01:07.649 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:01:07.891 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:01:07.917 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:01:07.925 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:01:07.926 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 1.742 seconds (JVM running for 154.38)
+2019-04-07 21:01:07.930 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 21:01:20.546 INFO [Thread-41]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:01:20.981 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 10016 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:01:20.981 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:01:21.606 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:01:21.607 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:01:21.628 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-04-07 21:01:21.726 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9528bba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:01:21.902 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:01:21.903 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:01:21.904 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:01:21.904 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:01:21.936 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-1].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:01:21.937 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 948 ms
+2019-04-07 21:01:22.170 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:01:22.323 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:01:22.344 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:01:22.350 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:01:22.351 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 1.444 seconds (JVM running for 168.804)
+2019-04-07 21:01:22.354 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 21:01:29.230 INFO [Thread-47]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:01:29.657 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 10016 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:01:29.658 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:01:30.223 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:01:30.223 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:01:30.244 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-04-07 21:01:30.341 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9528bba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:01:30.504 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:01:30.505 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:01:30.506 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:01:30.506 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:01:30.537 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-1].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:01:30.538 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 875 ms
+2019-04-07 21:01:30.935 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:01:36.507 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 8060 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:01:36.520 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:01:36.661 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 21:01:36.662 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-07 21:01:37.970 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:01:37.973 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:01:38.018 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-04-07 21:01:38.597 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd215aec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:01:39.262 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:01:39.291 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:01:39.311 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:01:39.311 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:01:39.324 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\jdk\jdk1.8\bin;F:\apache-maven-3.3.9\apache-maven-3.3.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;D:\oracle\安装介质\Oracle客户端\oracleInstanceClient\32bit\instantclient_12_1;F:\TortoiseGit\install\bin;D:\SSHSecureShellClient\安装;.]
+2019-04-07 21:01:39.532 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:01:39.533 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 2871 ms
+2019-04-07 21:01:40.343 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:01:41.175 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:01:41.221 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:01:41.258 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:01:41.263 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 5.765 seconds (JVM running for 7.336)
+2019-04-07 21:03:57.728 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9904 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:03:57.735 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:03:57.860 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 21:03:57.861 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-07 21:03:59.077 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:03:59.080 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:03:59.132 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-04-07 21:03:59.716 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d044083] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:04:00.309 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:04:00.339 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:04:00.355 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:04:00.355 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:04:00.365 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\jdk\jdk1.8\bin;F:\apache-maven-3.3.9\apache-maven-3.3.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;D:\oracle\安装介质\Oracle客户端\oracleInstanceClient\32bit\instantclient_12_1;F:\TortoiseGit\install\bin;D:\SSHSecureShellClient\安装;.]
+2019-04-07 21:04:00.581 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:04:00.581 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 2720 ms
+2019-04-07 21:04:01.396 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:04:02.222 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:04:02.293 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:04:02.332 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:04:02.337 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 5.572 seconds (JVM running for 7.123)
+2019-04-07 21:04:54.965 INFO [Thread-17]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:04:55.459 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9904 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:04:55.460 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:04:56.149 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:04:56.149 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:04:56.163 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-04-07 21:04:56.299 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d044083] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:04:56.551 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:04:56.553 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:04:56.554 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:04:56.554 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:04:56.587 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:04:56.588 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1121 ms
+2019-04-07 21:04:56.900 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:04:57.084 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:04:57.111 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:04:57.119 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:04:57.120 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 1.752 seconds (JVM running for 61.905)
+2019-04-07 21:04:57.124 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 21:05:07.236 INFO [Thread-25]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:05:07.706 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9904 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:05:07.707 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:05:08.583 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:05:08.583 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:05:08.595 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-04-07 21:05:08.696 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d044083] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:05:08.956 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:05:08.958 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:05:08.959 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:05:08.959 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:05:09.007 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:05:09.007 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1294 ms
+2019-04-07 21:05:09.410 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:05:09.598 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:05:09.628 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:05:09.635 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:05:09.636 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 2.023 seconds (JVM running for 74.42)
+2019-04-07 21:05:09.640 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 21:05:11.120 INFO [Thread-31]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:05:11.559 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9904 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:05:11.559 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:05:12.255 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:05:12.256 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:05:12.270 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-04-07 21:05:12.388 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d044083] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:05:12.551 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:05:12.552 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:05:12.553 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:05:12.554 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:05:12.586 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:05:12.587 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1022 ms
+2019-04-07 21:05:13.067 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:05:13.401 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:05:13.440 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:05:13.448 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:05:13.449 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 1.959 seconds (JVM running for 78.233)
+2019-04-07 21:05:13.452 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 21:05:16.904 INFO [Thread-37]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:05:17.444 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9904 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:05:17.445 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:05:18.407 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:05:18.410 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:05:18.439 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2019-04-07 21:05:18.717 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d044083] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:05:19.003 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:05:19.005 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:05:19.006 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:05:19.006 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:05:19.069 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:05:19.070 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1619 ms
+2019-04-07 21:05:19.678 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:05:19.942 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:05:19.985 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:05:19.992 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:05:19.994 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 2.618 seconds (JVM running for 84.778)
+2019-04-07 21:05:19.997 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 21:05:23.385 INFO [Thread-43]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:05:23.865 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 9904 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:05:23.866 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:05:24.425 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:05:24.425 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:05:24.447 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-04-07 21:05:24.569 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d044083] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:05:24.724 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:05:24.725 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:05:24.726 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:05:24.727 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:05:24.757 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:05:24.758 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 887 ms
+2019-04-07 21:05:24.802 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 21:05:24.803 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 21:05:24.813 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 21:05:32.357 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 10140 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:05:32.372 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:05:32.497 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 21:05:32.497 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-07 21:05:33.698 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:05:33.714 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:05:33.776 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-04-07 21:05:34.338 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a66a0809] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:05:34.931 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:05:34.946 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:05:34.962 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:05:34.962 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:05:34.962 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\jdk\jdk1.8\bin;F:\apache-maven-3.3.9\apache-maven-3.3.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;D:\oracle\安装介质\Oracle客户端\oracleInstanceClient\32bit\instantclient_12_1;F:\TortoiseGit\install\bin;D:\SSHSecureShellClient\安装;.]
+2019-04-07 21:05:35.305 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:05:35.305 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 2808 ms
+2019-04-07 21:05:35.399 WARN [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController' defined in file [F:\java项目练习\SpringBoot微信支付\weixinpay\target\classes\com\chenjing\weixinpay\controller\OrderController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chenjing.weixinpay.controller.OrderController]: Constructor threw exception; nested exception is java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+2019-04-07 21:05:35.399 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-04-07 21:05:35.430 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-07 21:06:17.008 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 6268 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:06:17.024 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:06:17.196 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 21:06:17.196 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-07 21:06:18.397 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:06:18.397 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:06:18.459 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-04-07 21:06:19.052 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2f996703] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:06:19.614 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:06:19.645 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:06:19.660 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:06:19.660 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:06:19.676 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\jdk\jdk1.8\bin;F:\apache-maven-3.3.9\apache-maven-3.3.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;D:\oracle\安装介质\Oracle客户端\oracleInstanceClient\32bit\instantclient_12_1;F:\TortoiseGit\install\bin;D:\SSHSecureShellClient\安装;.]
+2019-04-07 21:06:19.879 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:06:19.879 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 2683 ms
+2019-04-07 21:06:20.769 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:06:21.549 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:06:21.580 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:06:21.643 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:06:21.643 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 5.633 seconds (JVM running for 7.16)
+2019-04-07 21:07:03.318 INFO [http-nio-8082-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-07 21:07:03.318 INFO [http-nio-8082-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-04-07 21:07:03.329 INFO [http-nio-8082-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 11 ms
+2019-04-07 21:07:03.589 INFO [http-nio-8082-exec-1]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2019-04-07 21:07:04.443 INFO [http-nio-8082-exec-1]dataLogger.save:55 -module=video_order`api=save`user_id=1`video_id=2
+2019-04-07 21:07:11.098 INFO [http-nio-8082-exec-3]dataLogger.save:55 -module=video_order`api=save`user_id=1`video_id=2
+2019-04-07 21:07:12.619 INFO [http-nio-8082-exec-4]dataLogger.save:55 -module=video_order`api=save`user_id=1`video_id=2
+2019-04-07 21:11:07.792 INFO [Thread-17]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:11:07.807 INFO [Thread-17]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2019-04-07 21:11:08.451 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 6268 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:11:08.451 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:11:09.215 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:11:09.215 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:11:09.231 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-04-07 21:11:09.434 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2f996703] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:11:09.637 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:11:09.637 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:11:09.637 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:11:09.637 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:11:09.730 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:11:09.730 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1263 ms
+2019-04-07 21:11:10.089 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:11:10.432 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:11:10.463 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:11:10.463 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:11:10.463 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 2.11 seconds (JVM running for 295.982)
+2019-04-07 21:11:10.479 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 21:11:31.870 INFO [Thread-26]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:11:32.370 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 6268 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:11:32.370 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:11:32.931 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:11:32.931 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:11:32.947 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-04-07 21:11:33.056 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2f996703] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:11:33.243 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:11:33.259 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:11:33.259 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:11:33.259 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:11:33.290 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:11:33.290 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 920 ms
+2019-04-07 21:11:33.602 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:11:33.805 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:11:33.821 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:11:33.836 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:11:33.836 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 1.56 seconds (JVM running for 319.349)
+2019-04-07 21:11:33.836 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 21:11:44.464 INFO [Thread-32]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:11:44.902 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 6268 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:11:44.902 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:11:45.401 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:11:45.401 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:11:45.416 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-04-07 21:11:45.510 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2f996703] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:11:45.728 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:11:45.728 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:11:45.728 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:11:45.728 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:11:45.760 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:11:45.760 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 858 ms
+2019-04-07 21:11:46.134 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:11:46.368 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:11:46.399 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:11:46.415 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:11:46.415 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 1.576 seconds (JVM running for 331.92)
+2019-04-07 21:11:46.415 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 21:11:57.085 INFO [Thread-38]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:11:57.585 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 6268 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:11:57.585 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:11:58.384 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:11:58.384 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:11:58.400 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-04-07 21:11:58.478 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2f996703] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:11:58.680 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:11:58.680 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:11:58.680 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:11:58.680 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:11:58.712 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:11:58.712 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1127 ms
+2019-04-07 21:11:59.008 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:11:59.226 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:11:59.273 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:11:59.273 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:11:59.273 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 1.766 seconds (JVM running for 344.787)
+2019-04-07 21:11:59.273 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
+2019-04-07 21:12:01.676 INFO [Thread-44]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:12:02.191 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarting:50 -Starting WeixinpayApplication on PC-20180119LDQG with PID 6268 (started by Administrator in F:\java项目练习\SpringBoot微信支付\weixinpay)
+2019-04-07 21:12:02.191 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStartupProfileInfo:685 -No active profile set, falling back to default profiles: default
+2019-04-07 21:12:02.740 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-07 21:12:02.740 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 21:12:02.756 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-04-07 21:12:02.850 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2f996703] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-07 21:12:03.021 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8082 (http)
+2019-04-07 21:12:03.021 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:12:03.021 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-04-07 21:12:03.021 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-07 21:12:03.052 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-04-07 21:12:03.052 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 861 ms
+2019-04-07 21:12:03.349 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-07 21:12:03.583 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-04-07 21:12:03.630 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2019-04-07 21:12:03.630 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-07 21:12:03.630 INFO [restartedMain]com.chenjing.weixinpay.WeixinpayApplication.logStarted:59 -Started WeixinpayApplication in 1.517 seconds (JVM running for 349.147)
+2019-04-07 21:12:03.645 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:68 -Condition evaluation unchanged
