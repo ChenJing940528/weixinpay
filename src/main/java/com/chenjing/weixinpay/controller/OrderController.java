@@ -1,6 +1,5 @@
 package com.chenjing.weixinpay.controller;
 
-import com.chenjing.weixinpay.domain.JsonData;
 import com.chenjing.weixinpay.dto.VideoOrderDto;
 import com.chenjing.weixinpay.service.VideoOrderService;
 import com.chenjing.weixinpay.utils.IpUtils;
@@ -10,7 +9,8 @@ import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.client.j2se.MatrixToImageWriter;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
-import org.apache.tomcat.jni.Error;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,6 +22,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.Map;
+
 
 /**
  * description：OrderController
@@ -39,12 +40,19 @@ import java.util.Map;
 @RequestMapping("/api/v1/order")//用来测试的地址，int userId = 1;userId是写死的
 public class OrderController {
 
+    private Logger logger = (Logger) LoggerFactory.getLogger(this.getClass());
+
+    private Logger dataLogger = (Logger) LoggerFactory.getLogger("dataLogger");
+
     @Autowired
     private VideoOrderService videoOrderService;
 
     @GetMapping("add")
     public void saveOrder(@RequestParam(value = "video_id", required = true)int videoId,
                               HttpServletRequest request, HttpServletResponse response) throws Exception {
+
+        //异常测试
+        //int c = 1/0;
 
         String ip = IpUtils.getIpAddr(request);
 //        int userId = request.getAttribute("user_id");
