@@ -4,7 +4,6 @@ import com.chenjing.weixinpay.domain.JsonData;
 import com.chenjing.weixinpay.utils.JwtUtils;
 import com.google.gson.Gson;
 import io.jsonwebtoken.Claims;
-import org.apache.commons.codec.binary.StringUtils;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import javax.servlet.http.HttpServletRequest;

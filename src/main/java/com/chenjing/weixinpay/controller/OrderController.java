@@ -36,8 +36,8 @@ import java.util.Map;
 * 订单接口
 * */
 @RestController
-//@RequestMapping("/user/api/v1/order")
-@RequestMapping("/api/v1/order")//用来测试的地址，int userId = 1;userId是写死的
+@RequestMapping("/user/api/v1/order")
+//@RequestMapping("/api/v1/order")//用来测试的地址，int userId = 1;userId是写死的
 public class OrderController {
 
     private Logger logger = (Logger) LoggerFactory.getLogger(this.getClass());
@@ -55,8 +55,8 @@ public class OrderController {
         //int c = 1/0;
 
         String ip = IpUtils.getIpAddr(request);
-//        int userId = request.getAttribute("user_id");
-        int userId = 1;
+        int userId = (Integer) request.getAttribute("user_id");
+//        int userId = 1;
         VideoOrderDto videoOrderDto = new VideoOrderDto();
         videoOrderDto.setUserId(userId);
         videoOrderDto.setVideoId(videoId);
