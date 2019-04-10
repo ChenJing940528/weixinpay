@@ -26,7 +26,7 @@ public class VideoController {
 
     /*
     * 分页接口
-    * @param page 当前时间是第几页，默认是第一页
+    * @param page 当前是第几页，默认是第一页
     * @param size 每页显示几条
     * @return
     * */
